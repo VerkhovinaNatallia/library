@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/library/static/css/main.b7ccb389.css",
+    "main.js": "/library/static/js/main.3beb88a3.js",
+    "static/media/Welcome.png": "/library/static/media/Welcome.0425bcd4ee1eced396ad.png",
+    "static/media/image_3.png": "/library/static/media/image_3.099d7717cf2dd9c80be6.png",
+    "static/media/image_1.png": "/library/static/media/image_1.ae4215308aeecb8e140b.png",
+    "static/media/image_5.png": "/library/static/media/image_5.a70910f9b12a8b4ce065.png",
+    "static/media/image_4.png": "/library/static/media/image_4.2a40b77ae443f02b41e4.png",
+    "static/media/image_2.png": "/library/static/media/image_2.dee1ede5d89c860cf644.png",
+    "static/media/Rectangle 4.png": "/library/static/media/Rectangle 4.3a993327d105204b3259.png",
+    "static/media/book9.png": "/library/static/media/book9.fc379b06b7b8a3db5a07.png",
+    "static/media/book2.png": "/library/static/media/book2.2140b958bd5ddce7e88b.png",
+    "static/media/book6.png": "/library/static/media/book6.b14e775826d22f39d8fc.png",
+    "static/media/book8.png": "/library/static/media/book8.9afbf18054fbfd66ad65.png",
+    "static/media/book12.png": "/library/static/media/book12.52c790e3259b6cbe63d7.png",
+    "static/media/book.png": "/library/static/media/book.f2187494f0f4de6997e4.png",
+    "static/media/book10.png": "/library/static/media/book10.9945974ccd11392afbcf.png",
+    "static/media/book7.png": "/library/static/media/book7.5b930ab8d9f9846e21eb.png",
+    "static/media/book16.png": "/library/static/media/book16.4a4940ff914e2211be0e.png",
+    "static/media/book11.png": "/library/static/media/book11.9e8c8496f8f2de22530b.png",
+    "static/media/book15.png": "/library/static/media/book15.ab049b9045412c52755e.png",
+    "static/media/book13.png": "/library/static/media/book13.d09b298d95289d11ba42.png",
+    "static/media/book14.png": "/library/static/media/book14.71e8d64a07e0e45848b3.png",
+    "static/media/book5.png": "/library/static/media/book5.3887bbab2e1e3931d535.png",
+    "static/media/book4.png": "/library/static/media/book4.2885119f4a86f5f43cd8.png",
+    "static/media/book3.png": "/library/static/media/book3.e10de1971f96d780d6eb.png",
+    "index.html": "/library/index.html",
+    "main.b7ccb389.css.map": "/library/static/css/main.b7ccb389.css.map",
+    "main.3beb88a3.js.map": "/library/static/js/main.3beb88a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7ccb389.css",
+    "static/js/main.3beb88a3.js"
+  ]
+}
