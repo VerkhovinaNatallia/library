@@ -1,0 +1,29 @@
+.slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.myButton{
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    background: #0c0c0e;
+}
+.myButton.active{
+    background: #bb945f;
+}
+
+@media (max-width: 768px){
+    .slider{
+        justify-content: center;
+    }
+    .blockBtn{
+        margin-top: 25px;
+    }
+}

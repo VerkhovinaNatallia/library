@@ -1,0 +1,87 @@
+.section{
+padding: 20px 20px 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:40px;
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #0c0c0e;
+
+}
+.block{
+display: flex;
+justify-content: space-between;
+gap:40px;
+width: 100%;
+margin-top: 20px;
+}
+.contact{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap:40px;
+
+}
+.contactTitle{
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+}
+.contactsBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.contactLink{
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+}
+.contactText{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    margin-top:-17px;
+}
+.contactSpan{
+    font-weight: 700;
+        margin-left:6px;
+}
+
+
+@media(max-width:768px){
+
+    .block{
+        flex-direction: column;
+        gap:100px;
+    }
+    .map{
+        margin: 0 15px;
+    }
+}

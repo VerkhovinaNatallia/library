@@ -1,0 +1,36 @@
+.block{
+    background: #0c0c0e;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.navigation{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.button{
+    fill:#fff;
+}
+@media(max-width:768px){
+    .wrapper{
+        padding:20px;
+
+    }
+}
+
+

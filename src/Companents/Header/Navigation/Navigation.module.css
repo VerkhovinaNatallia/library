@@ -1,0 +1,24 @@
+.navigation{
+    display: flex;
+    
+    
+    
+}
+.list{
+    display: flex;
+    gap:30px;
+     
+}
+.link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .navigation{
+        display: none;
+    }
+}

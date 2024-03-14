@@ -1,0 +1,131 @@
+.section{
+    padding: 20px 40px 40px 0;
+}
+.title{
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0c0c0e;
+    margin-bottom: 20px;
+}
+.text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #000;
+    margin: 0 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+.menuBlock{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: 31%;
+}
+.section hr{
+    width: 50px;
+    height: 1px;
+    background: #0c0c0e;
+    margin: 0 auto 40px;
+}
+.menuTitle{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #bb945f;
+white-space: nowrap;
+
+}
+.menuTitle{
+    text-align: start;
+}
+.menuAdap .menuTitle {
+    text-align: end;
+}
+.menuAdap .menuList{
+        align-items: end;
+}
+
+.menuAdap .menuItem{
+        gap: 59px 
+}
+
+.menuList{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.menuItem{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.menuItem div{
+    display: flex;
+    gap: 60px;
+}
+.menuItem hr{
+    border: 1px solid #bb945f;
+    width: 100px;
+    height: 0px;
+    margin: auto;
+}
+.menuName{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000;
+}
+.menuPrice{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+@media(max-width:768px){
+    .menu{
+        flex-direction: column;
+        gap:40px;
+
+    }
+    .menuAdap{
+        align-items: flex-end;
+        width: 100%;
+    }
+    .section{
+        padding-right: 0;
+    } 
+    .menuBlock{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .menuList{
+        width: 59%;
+    }
+
+}

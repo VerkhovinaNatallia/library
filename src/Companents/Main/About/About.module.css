@@ -1,0 +1,38 @@
+.section{
+    padding: 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.section hr{
+    width: 50px;
+    height: 1px;
+    background: #0c0c0e;
+    margin: 0 auto ;
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0c0c0e;
+
+
+}
+.section hr{
+    width: 50px;
+    height: 1px;
+    background: #0c0c0e;
+    text-align: center;
+}
+.text{
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: #000;
+}
