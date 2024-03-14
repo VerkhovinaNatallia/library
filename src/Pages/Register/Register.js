@@ -12,7 +12,7 @@ const Register = () => {
                     <path d="M2 2.14926L17 17" stroke="#0C0C0E" stroke-width="3" />
                 </svg>
             </Link>   
-            <h3>Register</h3>
+            <h3 className={style.title}>Register</h3>
             <div className={style.inputConteiner}>
                 <label> First name </label>
                 <input  type="text" name="firstname" maxlength="20"/>

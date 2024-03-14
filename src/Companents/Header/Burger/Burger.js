@@ -20,10 +20,11 @@ const BurgerMenu = () => {
       {isOpen && (
         <div className={style.menu}>
 
-                <a className={style.menuItem} href ='#'>About the shelter</a>
-                <a className={style.menuItem} href ='#'>Our pets</a>
-                <a className={style.menuItem} href ='#'>Help the shelter</a>
-                <a className={style.menuItem} href ='#'>Contacts</a>
+                <a className={style.menuItem} href ='#about'>About</a>
+                <a className={style.menuItem} href ='#favorites'>Favorites</a>
+                <a className={style.menuItem} href ='#coffee'>Coffee shopr</a>
+                <a className={style.menuItem} href ='#contacts'>Contacts</a>
+                <a className={style.menuItem} href ='#card'>Library Card</a>
         </div>
       )}
     </div>

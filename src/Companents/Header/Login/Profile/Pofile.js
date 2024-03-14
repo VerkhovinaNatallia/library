@@ -4,7 +4,7 @@ import style from './Profile.module.css';
 const Profie = () => {
     return (
         <div className={style.profile}>
-            <p>Profile</p>
+            <p className={style.title}>Profile</p>
             <div className={style.profileBefore}></div>
             <div className={style.profileBottom}>
                 <Link to="/library/login"><button>Log In</button></Link>

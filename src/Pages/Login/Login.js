@@ -6,7 +6,7 @@ const Login = () => {
     return (
         <div className={style.wrapper}>
     <form className={style.login}>
-        <Link to="/library/login" className={style.exet}>
+        <Link to="/library/" className={style.exet}>
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
                 fill="none">
                 <path d="M2 16.8507L17 2.00003" stroke="#0C0C0E" stroke-width="3" />
@@ -14,7 +14,7 @@ const Login = () => {
             </svg>
         </Link>    
     
-            <h3>Login</h3>
+            <h3 className={style.title}>Login</h3>
             <div className={style.inputConteiner}>
                 <label > E-mail or readers card </label>
                 <input type="text" name="email"/>

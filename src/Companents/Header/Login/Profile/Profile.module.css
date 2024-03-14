@@ -18,7 +18,7 @@ height: 0px;
 margin: 5px 0 12px; 
 
 }
-p{
+.title{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 15px;
