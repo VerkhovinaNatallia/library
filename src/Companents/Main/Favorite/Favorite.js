@@ -79,7 +79,7 @@ const SvgActiv =()=>{
 
                                  <p className={style.cardText}>{text}</p>
                                 <img className={style.cardImg} src={src} alt={alt} key={id}/>
-                                <Link to="/buycard"> <button className={style.cardBtn}>Buy</button></Link>
+                                <Link to="/library/buycard"> <button className={style.cardBtn}>Buy</button></Link>
                                  </div>
                             )
                 

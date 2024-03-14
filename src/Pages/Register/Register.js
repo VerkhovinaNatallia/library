@@ -5,7 +5,7 @@ const Register = () => {
     return (  
         <div className={style.wrapper}>
             <form className={style.registr}>
-                <Link to="/" className={style.exet}>
+                <Link to="/library/" className={style.exet}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
                     fill="none">
                     <path d="M2 16.8507L17 2.00003" stroke="#0C0C0E" stroke-width="3" />
@@ -27,7 +27,7 @@ const Register = () => {
             </div>
             <div className={style.question}>
                 <span>Already have an account?</span>
-                <Link to="/login" className={style.questionReg}>Login</Link>
+                <Link to="/library/login" className={style.questionReg}>Login</Link>
             </div>
     
 

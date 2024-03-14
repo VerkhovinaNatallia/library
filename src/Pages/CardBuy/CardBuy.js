@@ -5,7 +5,7 @@ import style from './cardBuy.module.css'
 const CardBuy = () => {
     return ( 
         <div className={style.cardBuy}>
-            <Link to="/" className={style.exet}>
+            <Link to="/library/" className={style.exet}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
                             fill="none">
                             <path d="M2 16.8507L17 2.00003" stroke="#fff" stroke-width="3" />
