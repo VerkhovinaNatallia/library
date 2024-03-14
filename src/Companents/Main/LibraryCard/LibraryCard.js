@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./LibraryCard.module.css"
+import { Link } from "react-router-dom";
 
 
 const LibraryCard=()=>{
@@ -19,10 +20,8 @@ const LibraryCard=()=>{
                             <p className={style.cardText}>Brooklyn Public Library</p>
                             <input className={style.cardName} value="Reader's name"/>
                             <input className={style.cardNumber} value='Card number'/>
-                            
-                        
                         </div>
-                        <button className={style.button}> Check the card</button>
+                            <button className={style.button}> Check the card</button>
                     </div>
                 
                 
@@ -31,8 +30,8 @@ const LibraryCard=()=>{
                     <h3 className={style.getcardTitle}>Get a reader card</h3>
                     <p className={style.getcardText}> You will be able to see a reader card after logging into account or you can register a new account</p>                
                     <div className={style.getcardBtn}>
-                        <button className={style.btn}>Sign Up</button>
-                        <button className={style.btn}>Log In </button>
+                        <Link to="/library/register"><button className={style.btn}>Sign Up</button> </Link>
+                        <Link to="/library/login"><button className={style.btn}>Log In </button></Link>
                     </div>
                 <div/>
             </div>

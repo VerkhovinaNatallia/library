@@ -9,6 +9,9 @@
     gap: 10px;
     margin-top: 40px;
 }
+.blockBtn button:nth-child(4),.blockBtn button:nth-child(5){
+display: none;
+}
 .myButton{
     border-radius: 50px;
     width: 16px;
@@ -25,5 +28,8 @@
     }
     .blockBtn{
         margin-top: 25px;
+    }
+    .blockBtn button:nth-child(4),.blockBtn button:nth-child(5){
+        display: block;
     }
 }
